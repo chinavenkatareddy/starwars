@@ -1,0 +1,16 @@
+.footer {
+    background-color: #fff;
+    color: #09232c;
+    position: sticky;
+    padding: 10px 0;
+    text-align: right;
+    font-size: 14px;
+
+    .row {
+        justify-content: end;
+    }
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
