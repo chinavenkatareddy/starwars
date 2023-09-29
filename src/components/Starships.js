@@ -24,8 +24,6 @@ function Starships() {
                 newStarShipData.sort((a, b) => a.crew - b.crew);
                 setData(newStarShipData);
                 setMaxFilms(maxNum)
-                console.log(maxNum)
-                console.log(newStarShipData)
             } catch (error) {
                 console.log("error", error);
             }
@@ -38,7 +36,7 @@ function Starships() {
             <Container>
                 <Row>
                     {data.map((item) =>
-                        <Col lg="4" className='ship-item mb-4'>
+                        <Col sm="12" md="6" lg="4" xl="4" xxl="4" className='ship-item mb-4'>
                             <Card>
                                 <Card.Img variant="top" src="./Cruise-ships-1.png" />
                                 <Card.Body>
